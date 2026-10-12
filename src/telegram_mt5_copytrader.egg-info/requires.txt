@@ -1,0 +1,7 @@
+MetaTrader5
+playwright<2,>=1.46
+httpx<1,>=0.27
+python-dotenv<2,>=1.0
+
+[dev]
+pytest>=8

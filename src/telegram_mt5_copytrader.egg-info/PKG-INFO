@@ -1,0 +1,11 @@
+Metadata-Version: 2.4
+Name: telegram-mt5-copytrader
+Version: 1.1.0
+Summary: Low-latency Telegram Web signal copier for MetaTrader 5 with deterministic parsing and OpenCode Go classification
+Requires-Python: >=3.11
+Requires-Dist: MetaTrader5
+Requires-Dist: playwright<2,>=1.46
+Requires-Dist: httpx<1,>=0.27
+Requires-Dist: python-dotenv<2,>=1.0
+Provides-Extra: dev
+Requires-Dist: pytest>=8; extra == "dev"
